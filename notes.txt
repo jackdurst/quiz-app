@@ -1,0 +1,14 @@
+Objectifs :
+
+1 - Créer un site frontend fonctionnel qui prendra un tableau contenant : id, questions, réponses (a, b, c, ...), réponse correct, explication.
+    Le site crééra un quiz dynamique avec un bouton à la fin qui donnera le score final.
+
+2 - Ajouter la possibilité de créer son propre quizz et de sélectionner quel quiz faire.
+
+3 - Ajouter l'import d'image afin de faire un quiz style " reconnaitre cette ville"
+
+4 - Ajouter un backend où la vérification des réponses se fait et les quiz sont stockés sur une bdd
+
+5 - Ajouter un système d'authentification, de profil (user or admin) pour valider ou non les quiz proposés
+
+6 - Ajouter un ranking sur les quiz ????
