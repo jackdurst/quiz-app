@@ -2,23 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Quizz App</title>
+    <title>Quiz App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
-    <div class="quizapp">
-        <h2>Quiz App!</h2>
+    <div id="popup-overlay">
+        <div class="popup-content">
+            <h1> Créé ton quiz !</h1>
+            <button class="exitPopup" onclick="togglePopup()">Fermer</button>
+            <form id="quiz-form">
+                <div class="question-container">
+                    Nom du quiz :
+                    <input type="text" name="quizname" placeholder="Nom du quiz" required>
 
+                    <h2>Question 1</h2>
+                    <div class="answers">
+                        Question :
+                        <input type="text" name="question1" placeholder="Question 1" required>
+                        Réponses (coche la bonne) :
+                        <div>
+                            <label for="answer1a"><input type="radio" name="correct1" value="answer1a"></label>
+                            <input type="text" name="answer1a" placeholder="Réponse" required>
+                        </div>
+                        <div>
+                            <label for="answer1b"><input type="radio" name="correct1" value="answer1b"></label>
+                            <input type="text" name="answer1b" placeholder="Réponse" required>
+                        </div>
+                        <div>
+                            <label for="answer1c"><input type="radio" name="correct1" value="answer1c"></label>
+                            <input type="text" name="answer1c" placeholder="Réponse" required>
+                        </div>
+                        <div>
+                            <label for="answer1d"><input type="radio" name="correct1" value="answer1d"></label>
+                            <input type="text" name="answer1d" placeholder="Réponse" required>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="buttonaddquiz">
+                <button type="button" id="add-question">+</button>
+                <button type="submit">Enregistrer</button>
+            </div>
+        </div>
+    </div>
+    <div class="quizapp">
+
+
+        <h2>Quiz App!
+            <button onclick="togglePopup()">Créé ton Quiz !</button>
+        </h2>
         <div id="quizname"></div>
 
         <div id="quiz-container"></div>
         <div class="sendanswers">
             <button id="sendButton">SEND</button>
         </div>
-    </div>
 
+    </div>
 </div>
-<script src="script.js"></script>
+
+<script src="./script.js" defer></script>
+<script src="./addNewQuiz.js" defer></script>
 </body>
 </html>
