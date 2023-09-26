@@ -60,6 +60,8 @@ const quizData = {
     ]
 }
 
+
+
 const quizContainer = document.getElementById('quiz-container');
 
 // Place le nom du quiz en haut de page
@@ -331,11 +333,12 @@ document.addEventListener("DOMContentLoaded", function () {
             name: quizName,
             questions: questions
         };
-
-        // Vous pouvez maintenant stocker ou traiter l'objet "quizObject" selon vos besoins.
-        console.log(quizObject); // Affichez l'objet dans la console pour le moment
+        const quizDataJSON = JSON.stringify(quizObject)
+        console.log(quizDataJSON); // Affichez l'objet dans la console pour le moment
     });
 });
+
+
 
 
 buildQuiz();
