@@ -1,0 +1,43 @@
+[
+  {
+    "id": 0,
+    "name": "Culture générale !"
+  }, {
+    "id": 1,
+    "question": "Quelle est la capitale de l'Allemagne ?",
+    "a": "Madrid",
+    "b": "Berlin",
+    "c": "Strasbourg",
+    "d": "Paris",
+    "e": "Prout",
+    "f": "Stéphanie de Monaco",
+    "correct": "b"
+  }, {
+    "id": 2,
+    "question": "Qui a chanté Alors on danse ?",
+    "a": "Sean Paul",
+    "b": "Stromae",
+    "c": "Johnny Halliday",
+    "d": "Orelsan",
+    "correct": "b"
+  }, {
+    "id": 3,
+    "question": "Qu'est-ce qu'un Paris-Brest ?",
+    "a": "Une épreuve du tour de France",
+    "b": "Une ville d'Ille-et-Vilaine",
+    "c": "Une intempérie venue de Bretagne",
+    "d": "Un dessert",
+    "correct": "d",
+    "explication": "Il s'agit bien d'un dessert"
+  }, {
+    "id": 4,
+    "img": "./images/quizzvigo.jpg",
+    "question": "Qui est cette célébrité ?",
+    "a": "Bruce Hanks",
+    "b": "Leonardo Di Cruse",
+    "c": "Vigo Mikkelsen",
+    "d": "Timothée Depp",
+    "correct": "c",
+    "explication": "La photo était un machup entre lse visages de Mads Mikkelsen et Vigo Mortensen, la bonne réponese était donc Vigo Mikkelsen."
+  }
+]
